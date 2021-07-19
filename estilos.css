@@ -1,0 +1,105 @@
+:root{
+    --primario:#EBD4D3;
+    --primario_oscuro:#D6B6B6;
+    --secundario:#BDA0A0;
+    --blanco:#FFFFFF;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0%;
+    background-image: linear-gradient(to bottom, var(--primario) 0%, var(--blanco) 100%);
+}
+h1{
+    text-transform: uppercase;
+    font-size: bold;
+    background-color: var(--primario_oscuro);
+    padding: 5px;
+}
+.ppal{
+    text-align: center;
+}
+.perfil{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 30px; 
+}
+h2{
+    text-align: center;
+    margin: 30px;
+}
+.perfil p{
+    width: 25%;
+    background-color: var(--primario);
+    padding: 10px;
+    text-align: center;
+    box-shadow: 3px 3px 4px var(--secundario);
+} 
+img{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;  
+    box-shadow: 0 0 50px var(--secundario);
+}
+.ocupacion, .radial{
+    margin:10px 30px;
+    background-color: var(--primario);
+    padding: 10px;
+    box-shadow: 3px 3px 4px var(--secundario);
+}
+.formulario{
+    background-image: linear-gradient(to top, var(--primario) 0%, var(--blanco) 100%);
+    width: 25%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 4px var(--secundario);   
+}
+.formulario legend{
+    text-transform: uppercase;
+    display: block;
+    text-align: center;
+    display: block;
+    font-weight: bold;
+    font-size: 16px;
+    color: #BDA0A0;
+    margin-bottom: 20px;
+}
+.campos_padre{
+    display: block;
+    text-align: center;
+}
+.campos{
+    margin-bottom: 10px;
+}
+.campos label{
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.campos .input_texto{
+    padding: 5px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+}
+.boton{
+    text-transform: uppercase;
+    padding: 5px;
+    color: var(--primario_oscuro);
+    border-radius: 5px;
+    font-weight: bold;
+}
+.boton:hover{
+    cursor: pointer;
+}
+.iconos{
+    display: flex;
+    justify-content: flex-end;
+}
+.iconos a{
+    color: var(--primario_oscuro);
+    margin: 5px;
+    font-size: 30px;
+}
+
+
